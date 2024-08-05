@@ -3,13 +3,10 @@
 }
 
 body {
-    margin: 0;
-}
-
-.website {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin: 0;
 }
 
 .header {
@@ -19,16 +16,12 @@ body {
     height: 50px;
     max-height: 50px;
     min-height: 50px;
+    padding: 16px;
 }
 
 .logo {
-    font-size: 18px;
+    font-size: 24px;
     color: #F9FAF8;
-    padding-left: 16px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
 }
 
 ul {
@@ -37,24 +30,51 @@ ul {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
-    gap: 8px;
-    padding-right: 16px;
+    gap: 16px;
 }
 
 .main1 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-evenly;
     background-color: #1F2937;
     height: 200px;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
-.heromain {
+.main1left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 32px;
+    max-width: 500px;
+}
+
+.main1BigText {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
 }
 
+.main1SubText {
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
+.main1Button {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    max-width: fit-content;
+}
+
+.main1Image{
+    width: 200px;
+    height: auto;
+}
+
 .footer {
     text-align: center;
-
 }
