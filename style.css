@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: darkgray;
+    height: 50px;
+    max-height: 50px;
+    min-height: 50px;
+}
+
+.logo {
+    padding-left: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    padding-right: 16px;
+}
+
+
+
+
+.footer {
+    display: flex;
+
+
+}
