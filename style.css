@@ -1,27 +1,39 @@
+* {
+    font-family: "Roboto", "Times New Roman";
+}
+
 body {
+    margin: 0;
+}
+
+.website {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    margin: 0;
+    justify-content: space-evenly;
 }
 
 .header {
     display: flex;
-    justify-content: space-around;
-    background-color: darkgray;
+    justify-content: space-between;
+    background-color: #1F2937;
     height: 50px;
     max-height: 50px;
     min-height: 50px;
 }
 
 .logo {
+    font-size: 18px;
+    color: #F9FAF8;
     padding-left: 16px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
 }
 
 ul {
+    font-size: 18px;
+    color: #E5E7EB;
     list-style-type: none;
     display: flex;
     justify-content: space-between;
@@ -29,11 +41,20 @@ ul {
     padding-right: 16px;
 }
 
+.main1 {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    height: 200px;
+}
 
-
+.heromain {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
 
 .footer {
-    display: flex;
-
+    text-align: center;
 
 }
